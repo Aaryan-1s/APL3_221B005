@@ -48,7 +48,6 @@ abstract class Duck implements SwimBehavior {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
-    // Constructor to assign behaviors dynamically
     Duck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
         this.flyBehavior = flyBehavior;
         this.quackBehavior = quackBehavior;
