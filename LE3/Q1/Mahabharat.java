@@ -13,7 +13,7 @@ abstract class Pandav extends Bharatvanshi {
         System.out.println(getClass().getSimpleName() + " is obedient.");
     }
 
-    abstract void kind(); // Kindness varies, so making it abstract
+    abstract void kind(); 
 }
 class Arjun extends Pandav {
     @Override
