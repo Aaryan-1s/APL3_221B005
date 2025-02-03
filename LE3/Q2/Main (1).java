@@ -25,12 +25,9 @@ class FinalTest extends AbsTest {
 }
 public class Main {
     public static void main(String[] args) {
-        // Testing Test class
         System.out.println("--- Testing Test class ---");
         Test obj1 = new Test();
         obj1.display();
-
-        // Testing FinalTest class
         System.out.println("--- Testing FinalTest class ---");
         FinalTest obj2 = new FinalTest();
         obj2.display();
